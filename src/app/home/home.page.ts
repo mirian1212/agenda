@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+//  <div class="ion-padding">
+//  <ion-button href = "salvar-contato"> Cadastrar </ion-button>
+//  <ion-button href = "listar-contato"> Listar </ion-button>
+//  </div>
 }

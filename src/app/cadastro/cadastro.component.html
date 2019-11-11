@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cadastro:</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position='floating'> Nome Completo: </ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"> CPF: </ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"> Registro Acadêmico: </ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"> Número de Contato: </ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"> Estado: </ion-label>
+    <ion-select>
+      <ion-select-option value="p">Paraná</ion-select-option>
+      <ion-select-option value="m">Minas Gerais</ion-select-option>
+      <ion-select-option value="r">Rio de Janeiro</ion-select-option>
+      <ion-select-option value="s">São Paulo</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"> Cidade: </ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-card>
+      <ion-button (click)="Salvar()" expand="full" color="black"> Salvar</ion-button>
+    <ion-button color="dark" href="home" > Voltar </ion-button>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+
+</ion-footer>

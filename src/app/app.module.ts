@@ -12,8 +12,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import {SalvarContatoComponent} from './contato/salvar-contato/salvar-contato.component';
 import {ListarContatoComponent} from './contato/listar-contato/listar-contato.component';
+import {CadastroComponent} from './cadastro/cadastro.component';
+
+
 @NgModule({
-  declarations: [AppComponent, SalvarContatoComponent, ListarContatoComponent],
+  declarations: [AppComponent, SalvarContatoComponent, ListarContatoComponent, CadastroComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule,
   AngularFireModule.initializeApp({
@@ -24,7 +27,7 @@ import {ListarContatoComponent} from './contato/listar-contato/listar-contato.co
     storageBucket: "",
     messagingSenderId: "717497152550",
     appId: "1:717497152550:web:b4e72db28a594645"
-  }), AngularFireDatabaseModule // biblioteca 
+  }), AngularFireDatabaseModule // biblioteca
   ],
   providers: [
     StatusBar,
